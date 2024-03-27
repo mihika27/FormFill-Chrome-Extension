@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 20px;
+    width:100vh;
+
+}
+
+h1{
+    color: rgb(17, 5, 5);
+    font-weight: 1000;
+    align-items: center;
+    padding: 0 130px;
+}
+
+h2{
+    color: #555;
+}
+
+p{
+    font-size: 8px;
+}
+label{
+    font-weight: bold;
+    padding-bottom: 10px;
+    margin-top: 10px;
+
+
+}
+
+#fieldName{
+    margin-bottom: 10px;
+}
+
+
+input[type="text"]{
+    width:100%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #555; /* Medium grey button background */
+    color: #fff; /* White button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: #444; /* Dark grey hover color */
+  }
+
+  #output {
+    margin-top: 20px;
+    background-color: #fff; /* White background for output div */
+    padding: 10px;
+    border: 1px solid #000000; /* Light grey border */
+    border-radius: 2px;
+  }

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Fill extension</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>FormFill Extension</h1>
+  <h2>Enter values you want to store</h2>
+  <label for="fieldName">Field Name:</label>
+  <input type="text" id="fieldName" placeholder="Enter Field Name">
+  
+  <label for="fieldValue" >Field Value:</label>
+  <input type="text" id="fieldValue" placeholder="Enter Field Value">
+  <button id="storeValueButton">Store Value</button>
+
+  <h2>Retrieve Values</h2>
+  <label for="retrieveFieldName">Retrieve Field Name</label>
+  <input type="text" id="retrieveFieldName" placeholder="Enter Field Name">
+  <button id="retrieveValueButton">Retrieve Value</button>
+  <div id="output"></div>
+  <script src="popup.js"></script>
+  <p>[@mihika]</p>
+</body>
+</html>
